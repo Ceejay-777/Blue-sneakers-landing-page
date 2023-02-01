@@ -7,6 +7,31 @@
 
 .main-nav {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.
+.logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
