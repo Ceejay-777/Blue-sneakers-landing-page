@@ -5,7 +5,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.main-nav {
+.flex {
+    display: flex;
+}
+
+.banner {
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980); 
+    height: 50vh;
+}
+
+.banner-nav {
     width: 100vw;
     padding: 20px 40px;
     display: flex;
@@ -37,16 +48,24 @@ li {
     list-style: none;
 }
 
-.banner {
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
-    background: linear-gradient(to right, #26D0CE, #1A2980); 
-    height: 50vh;
+.banner-content {
+    justify-content: space-between;
+    padding: 40px 30px;
+    
 }
 
 img {
     width: 300px;
-    margin-left: auto;
-    margin-right: 40px;
-    display: block;
+    /* margin-left: auto;
+    margin-right: 40px; */
+    display: block; 
 }
+
+.banner-header {
+    height: max-content;
+    font-size: 2rem;
+    font-weight: 700;
+    min-width: 400px;
+    color: white;
+}
+
